@@ -3,6 +3,7 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
     font-size: 18px;
+    background-color: #0f2433
 }
 
 header {
@@ -19,16 +20,18 @@ main {
     flex-direction: column;
     align-items: center;
     height: 100vh;
-    background-color: darkblue;
+    background-color: #0f2433
 }
 
 .poll {
     width: 100%;
     max-width: 350px;
     padding: 20px;
-    background-color: #fff;
+    background-color: #333;
+    color: white;
     border-radius: 5px;
     margin: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 .poll .options {
@@ -41,11 +44,16 @@ main {
     padding: 10px;
     border: none;
     border-radius: 5px;
-    background-color: #333;
+    background-color: #4a4a4a;
     color: white;
     cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+
+    font-weight: bold;
+    font-size: 18px;
 }
 
 .poll .options button:hover {
-    background-color: #555;;
+    background-color: #555;
+    transform: translateY(-2px);
 }
