@@ -16,4 +16,4 @@ VotingNet is a simple and minimalistic voting application.
 
 ## Testing
 
-Demo it here: <a href="http://srv2.byenoob.com:6080/">Demo link</a>
+Demo it here: <a href="http://bs.byenoob.com:5085/">Demo link</a>
